@@ -1,0 +1,49 @@
+
+Month 1 
+I learnt introduction to cloud
+everything in Linux exist as a file
+I learnt how to create user and group 
+I lear command such as 
+chmod, chown, setfacl, getfacl, useradd, 
+commands to change permission 
+sudo setfacl -m u:Mary:r-- name of file
+
+
+
+git work 
+
+ I learnt how to use the various command of git and I was able to push my work progess at AltSchool to github
+
+bash scripting 
+
+YOU have to create a script something like script.sh
+before you can excute command use 
+chmod u+x "name of script"
+to perform command on nano or vi
+start with #!/usr/bin/bash
+examples from class 
+#!/usr/bin/bash
+
+touch log_file.log
+date >> log_file.log
+free >> log_file.log
+echo "---" >> log_file.log
+ 
+example 2
+if [[ -z "$1" ]]; then
+echo "Empty Argument passed"
+else 
+echo "welcome $1"
+fi
+
+SYSTEMD(system) 
+we worked with the command systemctl 
+we use it to install apache2 and nginx 
+it is use to check status,start, stop and restart running program
+example sudo systemctl start apache2
+note ssh works on port 21
+ping is use for testing network connectivity
+sudo ufw default deny outgoing 
+sudo ufw default allow outgoing (allow user to get info from outside)
+
+
